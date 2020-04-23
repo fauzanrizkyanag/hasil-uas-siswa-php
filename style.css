@@ -1,0 +1,126 @@
+body{
+    padding: 30px;
+    background: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.header{
+    background: gray;
+    padding: 20px 30px 20px 30px;
+}
+.header-title{
+    color: yellow;
+}
+.profile{
+    background: gainsboro;
+    width: 250px;
+    height: 79px;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    right: 38px;
+    top: 38px;
+}
+.content{
+    background: white;
+    width: auto;
+    padding: 30px;
+}
+.content.login-form{
+    width: 300px;
+    margin-top: 125px;
+    margin-left: 475px;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: gainsboro;
+    font-weight: bold;
+}
+h3.login-title{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a.button-primary{
+    background: rgb(3, 158, 219);
+    padding: 10px;
+    color: white;
+}
+a.button-primary:hover{
+    background: rgb(0, 119, 167);
+}
+a.button-primary.tambah-data{
+    margin-bottom: 10px;
+}
+table.daftar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+table thead{
+    background: gainsboro;
+}
+a.button-success{
+    background: limegreen;
+    padding: 3px;
+    color: black;
+}
+a.button-success:hover{
+    background: rgb(0, 167, 0);
+}
+a.button-warning{
+    background: orange;
+    padding: 3px;
+    color: black;
+}
+a.button-warning:hover{
+    background: rgb(255, 136, 0);
+}
+a.button-danger{
+    background: red;
+    padding: 3px;
+    color: white;
+}
+a.button-danger:hover{
+    background: rgb(192, 0, 0);
+}
+a.button-secondary{
+    background: gainsboro;
+    padding: 10px;
+    color: black;
+}
+a.button-secondary:hover{
+    background: rgb(177, 177, 177);
+}
+.detail{
+    margin-top: 50px;
+}
+input.input-text{
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input.input-text.auth{
+    width: 200px;
+    padding: 7px 15px;
+}
+select.input-select{
+    width: 350px;
+    padding: 12px 20px;
+    background-color: white;
+}
+input.button-submit{
+    background-color: rgb(3, 158, 219);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+input.button-submit:hover{
+    background-color: rgb(0, 119, 167);
+}
